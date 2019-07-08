@@ -1,5 +1,5 @@
-- name: registration.dflow
-  version: '1.0.2'
+- name: Registered Corporation
+  version: '1.0.3'
   attributes:
     - corp_num
     - registration_date
@@ -16,8 +16,8 @@
     - postal_code
     - province
 
-- name: relationship.dflow
-  version: '1.0.2'
+- name: Business Relationship
+  version: '1.0.3'
   attributes:
     - corp_num
     - dba_corp_num

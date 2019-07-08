@@ -4,12 +4,8 @@
 # Template File: templates/agents/agent-build.json
 #=========================================================
 NAME=agent
-GIT_REPO_URL=https://github.com/bcgov/dflow.git
+GIT_REPO_URL=https://github.com/bcgov/greenlight.git
 GIT_REF=master
 SOURCE_CONTEXT_DIR=
 OUTPUT_IMAGE_TAG=latest
 DOCKER_FILE_PATH=docker/agent/Dockerfile
-CPU_LIMIT=0
-MEMORY_LIMIT=0Mi
-CPU_REQUEST=0
-MEMORY_REQUEST=0Mi
